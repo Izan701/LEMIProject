@@ -5,7 +5,7 @@
         <service>
             <nombre>Ultimate</nombre>
             <precio>12.99€ (1€ the first month)</precio>
-            <incluye>EA Play, Gold</incluye>
+            <incluye>EA Play, Gold, XBOX Cloud Gaming</incluye>
         </service>
 
         <service>
@@ -21,6 +21,6 @@
         </service>
     </services>
     <games>
-        
+
     </games>
 </gamePass>
