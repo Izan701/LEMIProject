@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gamePass.xsl"?>
+<gamePass>
+    <servicios>
+        <servicio>
+            <nombre>Ultimate</nombre>
+            <precio>12.99€ (1€ el primer mes)</precio>
+            <incluye>EA Play, Gold</incluye>
+        </servicio>
+
+        <servicio>
+            <nombre>PC</nombre>
+            <precio>9.99€ (1€ el primer mes)</precio>
+            <incluye>EA play</incluye>
+        </servicio>
+
+        <servicio>
+            <nombre>Consola</nombre>
+            <precio>9.99€</precio>
+            <incluye/>
+        </servicio>
+    </servicios>
+</gamePass>
