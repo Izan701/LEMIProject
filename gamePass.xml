@@ -3,21 +3,21 @@
 <gamePass>
     <services>
         <service>
-            <nombre>Ultimate</nombre>
-            <precio>12.99€ (1€ the first month)</precio>
-            <incluye>EA Play, Gold, XBOX Cloud Gaming</incluye>
+            <name>Ultimate</name>
+            <price>12.99€ (1€ the first month)</price>
+            <includes>EA Play, Gold, XBOX Cloud Gaming, Games</includes>
         </service>
 
         <service>
-            <nombre>PC</nombre>
-            <precio>9.99€ (1€ the first month)</precio>
-            <incluye>EA play</incluye>
+            <name>PC</name>
+            <price>9.99€ (1€ the first month)</price>
+            <includes>EA play, Games</includes>
         </service>
 
         <service>
-            <nombre>Consola</nombre>
-            <precio>9.99€</precio>
-            <incluye/>
+            <name>Console</name>
+            <price>9.99€</price>
+            <includes>Games</includes>
         </service>
     </services>
     <games>
