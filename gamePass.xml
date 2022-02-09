@@ -21,6 +21,299 @@
         </service>
     </services>
     <games>
-
+        <game id="g001">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g002">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g003">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g004">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g005">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g006">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g007">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g008">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g009">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g010">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g011">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g012">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g013">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g014">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g015">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g016">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g017">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g018">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g019">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g020">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g021">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g022">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g023">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g024">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g025">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g026">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g027">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g028">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g029">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g030">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g031">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g032">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g033">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g034">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g035">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g036">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g037">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g038">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g039">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g040">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g041">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
+        <game id="g042">
+            <name></name>
+            <platform></platform>
+            <price></price>
+            <dev></dev>
+            <publisher></publisher>
+        </game>
     </games>
 </gamePass>
