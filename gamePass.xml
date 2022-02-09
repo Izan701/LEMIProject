@@ -5,7 +5,6 @@
         <service>
             <name>Ultimate</name>
             <price>12.99€ (1€ the first month)</price>
-			<release></release>
             <includes>EA Play, Gold, XBOX Cloud Gaming, Games</includes>
         </service>
 
@@ -26,7 +25,7 @@
             <name>Forza Horizon 4 Standard Edition</name>
             <platform>Console, PC and mobile</platform>
             <price>39.99</price>
-			<release></release>
+	    <release></release>
             <dev>Turn 10 Studios, Playground Games</dev>
             <publisher>Microsoft</publisher>
         </game>
@@ -34,7 +33,7 @@
             <name>Gang Beasts</name>
             <platform>Console, PC and mobile</platform>
             <price>19.99€</price>
-			<release></release>
+            <release></release>
             <dev>Boneloaf, Coatsink</dev>
             <publisher>Double Fine, Skybound Games, Boneloaf</publisher>
         </game>
@@ -42,7 +41,7 @@
             <name>Halo Infinite</name>
             <platform>Console and PC</platform>
             <price>69.99</price>
-			<release></release>
+	    <release></release>
             <dev>343 Industries</dev>
             <publisher>Microsoft</publisher>
         </game>
@@ -50,7 +49,7 @@
             <name>HITMAN Trilogy</name>
             <platform>Console and PC</platform>
             <price>59.99
-			<release></release>
+	    <release></release>
             <dev>IO Interactive</dev>
             <publisher>IO Interactive</publisher>
         </game>
@@ -58,7 +57,7 @@
             <name>Minecraft</name>
             <platform>Console, PC and Mobile</platform>
             <price>23.95€
-			<release></release>
+	    <release></release>
             <dev>Mojang, Microsoft</dev>
             <publisher>Microsoft</publisher>
         </game>
@@ -66,15 +65,15 @@
             <name>Mortal Kombat 11</name>
             <platform>Console, PC and mobile</platform>
             <price>49.99€
-			<release></release>
+	    <release></release>
             <dev>NetherRealm Studios, QLOC, Shiver Entertainment</dev>
             <publisher>Warner Bros Interactive entertainment</publisher>
         </game>
         <game id="g007">
             <name>Sea of Thieves</name>
             <platform>Console, PC and mobile</platform>
-            <price>39.99
-			<release></release>
+	    <price>39.99</price>
+	    <release></release>
             <dev>Rare</dev>
             <publisher>Xbox Game Studios</publisher>
         </game>
@@ -82,7 +81,7 @@
             <name>Octopath Traveller</name>
             <platform>Console,PC</platform>
             <price>44.99</price>
-			<release></release>
+	    <release></release>
             <dev>Square Enix, ACQUIRE Corp</dev>
             <publisher>Square Enix</publisher>
         </game>
@@ -90,7 +89,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -98,7 +97,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -106,7 +105,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -114,7 +113,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -122,7 +121,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -130,7 +129,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -138,7 +137,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -146,7 +145,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -154,7 +153,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -162,7 +161,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -170,7 +169,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -178,7 +177,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -186,7 +185,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -194,7 +193,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -202,7 +201,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -210,7 +209,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -218,7 +217,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -226,7 +225,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -234,7 +233,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -242,7 +241,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -250,7 +249,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -258,7 +257,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -266,7 +265,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -274,7 +273,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -282,7 +281,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -290,7 +289,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -298,7 +297,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -306,7 +305,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -314,7 +313,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -322,7 +321,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -330,7 +329,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -338,7 +337,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -346,7 +345,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
@@ -354,7 +353,7 @@
             <name></name>
             <platform></platform>
             <price></price>
-			<release></release>
+	    <release></release>
             <dev></dev>
             <publisher></publisher>
         </game>
