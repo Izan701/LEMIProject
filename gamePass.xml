@@ -24,7 +24,7 @@
         <game id="g001">
             <name>Forza Horizon 4 Standard Edition</name>
             <platform>Console, PC and mobile</platform>
-            <price>39.99€</price>
+            <price>39.99</price>
             <dev>Turn 10 Studios, Playground Games</dev>
             <publisher>Microsoft</publisher>
         </game>
@@ -71,11 +71,11 @@
             <publisher>Xbox Game Studios</publisher>
         </game>
         <game id="g008">
-            <name></name>
-            <platform></platform>
-            <price></price>
-            <dev></dev>
-            <publisher></publisher>
+            <name>Octopath Traveller</name>
+            <platform>Console,PC</platform>
+            <price>44.99</price>
+            <dev>Square Enix, ACQUIRE Corp</dev>
+            <publisher>Square Enix</publisher>
         </game>
         <game id="g009">
             <name></name>
