@@ -22,53 +22,53 @@
     </services>
     <games>
         <game id="g001">
-            <name></name>
-            <platform></platform>
-            <price></price>
-            <dev></dev>
-            <publisher></publisher>
+            <name>Forza Horizon 4 Standard Edition</name>
+            <platform>Console, PC and mobile</platform>
+            <price>39.99€</price>
+            <dev>Turn 10 Studios, Playground Games</dev>
+            <publisher>Microsoft</publisher>
         </game>
         <game id="g002">
-            <name></name>
-            <platform></platform>
-            <price></price>
-            <dev></dev>
-            <publisher></publisher>
+            <name>Turn 10 Studios, Playground Games</name>
+            <platform>Console, PC and mobile</platform>
+            <price>19.99€</price>
+            <dev>Boneloaf, Coatsink</dev>
+            <publisher>Double Fine, Skybound Games, Boneloaf</publisher>
         </game>
         <game id="g003">
-            <name></name>
-            <platform></platform>
-            <price></price>
-            <dev></dev>
-            <publisher></publisher>
+            <name>Halo Infinite</name>
+            <platform>Console and PC</platform>
+            <price>69.99</price>
+            <dev>343 Industries</dev>
+            <publisher>Microsoft</publisher>
         </game>
         <game id="g004">
-            <name></name>
-            <platform></platform>
-            <price></price>
-            <dev></dev>
-            <publisher></publisher>
+            <name>HITMAN Trilogy</name>
+            <platform>Console and PC</platform>
+            <price>59.99</price>
+            <dev>IO Interactive</dev>
+            <publisher>IO Interactive</publisher>
         </game>
         <game id="g005">
-            <name></name>
-            <platform></platform>
-            <price></price>
-            <dev></dev>
-            <publisher></publisher>
+            <name>Minecraft</name>
+            <platform>Console, PC and Mobile</platform>
+            <price>23.95€</price>
+            <dev>Mojang, Microsoft</dev>
+            <publisher>Microsoft</publisher>
         </game>
         <game id="g006">
-            <name></name>
-            <platform></platform>
-            <price></price>
-            <dev></dev>
-            <publisher></publisher>
+            <name>Mortal Kombat 11</name>
+            <platform>Console, PC and mobile</platform>
+            <price>49.99€</price>
+            <dev>NetherRealm Studios, QLOC, Shiver Entertainment</dev>
+            <publisher>Warner Bros Interactive entertainment</publisher>
         </game>
         <game id="g007">
-            <name></name>
-            <platform></platform>
-            <price></price>
-            <dev></dev>
-            <publisher></publisher>
+            <name>Sea of Thieves</name>
+            <platform>Console, PC and mobile</platform>
+            <price>39.99</price>
+            <dev>Rare</dev>
+            <publisher>Xbox Game Studios</publisher>
         </game>
         <game id="g008">
             <name></name>
