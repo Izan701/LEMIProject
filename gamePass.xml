@@ -25,7 +25,7 @@
             <name>Forza Horizon 4 Standard Edition</name>
             <platform>Console, PC and mobile</platform>
             <price>39.99</price>
-	    <release></release>
+	        <release></release>
             <dev>Turn 10 Studios, Playground Games</dev>
             <publisher>Microsoft</publisher>
         </game>
@@ -41,39 +41,39 @@
             <name>Halo Infinite</name>
             <platform>Console and PC</platform>
             <price>69.99</price>
-	    <release></release>
+	        <release></release>
             <dev>343 Industries</dev>
             <publisher>Microsoft</publisher>
         </game>
         <game id="g004">
             <name>HITMAN Trilogy</name>
             <platform>Console and PC</platform>
-            <price>59.99
-	    <release></release>
+            <price>59.99</price>
+	        <release></release>
             <dev>IO Interactive</dev>
             <publisher>IO Interactive</publisher>
         </game>
         <game id="g005">
             <name>Minecraft</name>
             <platform>Console, PC and Mobile</platform>
-            <price>23.95€
-	    <release></release>
+            <price>23.95€</price>
+	        <release></release>
             <dev>Mojang, Microsoft</dev>
             <publisher>Microsoft</publisher>
         </game>
         <game id="g006">
             <name>Mortal Kombat 11</name>
             <platform>Console, PC and mobile</platform>
-            <price>49.99€
-	    <release></release>
+            <price>49.99€</price>
+	        <release></release>
             <dev>NetherRealm Studios, QLOC, Shiver Entertainment</dev>
             <publisher>Warner Bros Interactive entertainment</publisher>
         </game>
         <game id="g007">
             <name>Sea of Thieves</name>
             <platform>Console, PC and mobile</platform>
-	    <price>39.99</price>
-	    <release></release>
+	        <price>39.99</price>
+	        <release></release>
             <dev>Rare</dev>
             <publisher>Xbox Game Studios</publisher>
         </game>
