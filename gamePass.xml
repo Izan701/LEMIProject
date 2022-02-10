@@ -71,10 +71,10 @@
             <publisher>Xbox Game Studios</publisher>
         </game>
         <game id="g008">
-            <name></name>
-            <platform></platform>
-            <price></price>
-            <dev></dev>
+            <name>The Elder Scrolls V: Skyrim Special Edition</name>
+            <platform>Console and mobile</platform>
+            <price>49.99</price>
+            <dev>Bethesda</dev>
             <publisher></publisher>
         </game>
         <game id="g009">
