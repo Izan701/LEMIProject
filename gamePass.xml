@@ -25,7 +25,7 @@
             <name>Forza Horizon 4 Standard Edition</name>
             <platform>Console, PC and mobile</platform>
             <price>39.99</price>
-	        <release></release>
+	        <release>2018-09-28</release>
             <dev>Turn 10 Studios, Playground Games</dev>
             <publisher>Microsoft</publisher>
         </game>
@@ -33,7 +33,7 @@
             <name>Gang Beasts</name>
             <platform>Console, PC and mobile</platform>
             <price>19.99€</price>
-            <release></release>
+            <release>2014-08-29</release>
             <dev>Boneloaf, Coatsink</dev>
             <publisher>Double Fine, Skybound Games, Boneloaf</publisher>
         </game>
@@ -41,7 +41,7 @@
             <name>Halo Infinite</name>
             <platform>Console and PC</platform>
             <price>69.99</price>
-	        <release></release>
+	        <release>2021-12-08</release>
             <dev>343 Industries</dev>
             <publisher>Microsoft</publisher>
         </game>
@@ -49,7 +49,7 @@
             <name>HITMAN Trilogy</name>
             <platform>Console and PC</platform>
             <price>59.99</price>
-	        <release></release>
+	        <release>2022-01-20</release>
             <dev>IO Interactive</dev>
             <publisher>IO Interactive</publisher>
         </game>
@@ -57,7 +57,7 @@
             <name>Minecraft</name>
             <platform>Console, PC and Mobile</platform>
             <price>23.95€</price>
-	        <release></release>
+	        <release>2011-11-18</release>
             <dev>Mojang, Microsoft</dev>
             <publisher>Microsoft</publisher>
         </game>
@@ -65,33 +65,33 @@
             <name>Mortal Kombat 11</name>
             <platform>Console, PC and mobile</platform>
             <price>49.99€</price>
-	        <release></release>
+	        <release>2019-04-22</release>
             <dev>NetherRealm Studios, QLOC, Shiver Entertainment</dev>
             <publisher>Warner Bros Interactive entertainment</publisher>
         </game>
         <game id="g007">
             <name>Sea of Thieves</name>
             <platform>Console, PC and mobile</platform>
-	        <price>39.99</price>
-	        <release></release>
+	        <price>39.99€</price>
+	        <release>2018-03-20</release>
             <dev>Rare</dev>
             <publisher>Xbox Game Studios</publisher>
         </game>
         <game id="g008">
             <name>Octopath Traveller</name>
             <platform>Console,PC</platform>
-            <price>44.99</price>
-	        <release></release>
+            <price>44.99€</price>
+	        <release>2018-07-13</release>
             <dev>Square Enix, ACQUIRE Corp</dev>
             <publisher>Square Enix</publisher>
         </game>
         <game id="g009">
-            <name></name>
-            <platform></platform>
-            <price></price>
-	        <release></release>
-            <dev></dev>
-            <publisher></publisher>
+            <name>Destiny 2</name>
+            <platform>PC</platform>
+            <price>Free</price>
+	        <release>2017-08-28</release>
+            <dev>Bungie Studios</dev>
+            <publisher>Bungie Studios, Activision</publisher>
         </game>
         <game id="g010">
             <name></name>
