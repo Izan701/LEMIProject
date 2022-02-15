@@ -1,11 +1,15 @@
 <!ELEMENT gamePass (services, games)>
 <!ELEMENT services (service+)>
-<!ELEMENT service (name, price, includes)>
+<!ELEMENT service (name, price, includes, image)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
+<!ATTLIST price
+          currency CDATA #REQUIRED>
 <!ELEMENT includes (#PCDATA)>
-<!ELEMENT games (game+)>
-<!ELEMENT game (name, platform, price, release, dev, publisher)>
+<!ELEMENT image (#PCDATA)>
+<!ELEMENT games (discount, game+)>
+<!ELEMENT discount (#PCDATA)>
+<!ELEMENT game (name, image, platform, price, release, dev, publisher)>
 <!ATTLIST game
           id CDATA #REQUIRED>
 <!ELEMENT platform (#PCDATA)>
