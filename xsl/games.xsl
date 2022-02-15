@@ -72,9 +72,19 @@
 							
 							<xsl:element name="td"><xsl:value-of select="name"/></xsl:element>
 							<xsl:element name="td"><xsl:value-of select="platform"/></xsl:element>
-							<!-- <xsl:element name="td"><xsl:value-of select="concat($price, $curr)"/></xsl:element> -->
-							<xsl:element name="td"><xsl:value-of select="concat($price, price/@currency)"/></xsl:element>
-							<xsl:element name="td"><xsl:value-of select="concat(format-number(($price * $disc),'#.##'), price/@currency)"/></xsl:element>
+
+							<!-- Condition when a game is free -->
+							<xsl:choose>
+								<xsl:when test="price > 0">
+									<xsl:element name="td"><xsl:value-of select="concat($price, price/@currency)"/></xsl:element>
+									<xsl:element name="td"><xsl:value-of select="concat(format-number(($price * $disc),'#.##'), price/@currency)"/></xsl:element>
+								</xsl:when>
+								<xsl:otherwise>
+									<xsl:element name="td"><xsl:value-of select="$price"/></xsl:element>
+									<xsl:element name="td"><xsl:value-of select="$price"/></xsl:element>									
+								</xsl:otherwise>
+							</xsl:choose>
+
 							<xsl:element name="td"><xsl:value-of select="release"/></xsl:element>
 							<xsl:element name="td"><xsl:value-of select="dev"/></xsl:element>
 							<xsl:element name="td"><xsl:value-of select="publisher"/></xsl:element>
