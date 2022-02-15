@@ -322,7 +322,7 @@
             <name>Control Standard Edition</name>
             <image>https://store-images.s-microsoft.com/image/apps.48174.14256445537254462.1f6ee6a2-431a-4f85-b644-10f2643bc799.7997f024-6fc8-4f29-82a5-4d67f76203b9?q=90</image>
             <platform>PC</platform>
-            <price>29.99€</price>
+            <price>29.99</price>
 	        <release>2021-01-21</release>
             <dev>Remedy Entertainment Plc.</dev>
             <publisher>505 Games</publisher>
