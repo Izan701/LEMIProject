@@ -21,10 +21,10 @@
 			<div class="inner">
 				<a href="#" class="logo">Game Pass videogame catalog</a>
 				<nav id="nav">
-					<a href="#">Página Principal</a>
-					<a href="web/catalogo_1.html">Catálogo 1</a>
-					<a href="web/catalogo_2.html">Catálogo 2</a>
-					<a href="web/contacto.html">Contacto</a>								
+					<a href="#">Home page</a>
+					<a href="web/catalogo_1.html">Videogame catalog</a>
+					<a href="web/catalogo_2.html">Service catalog</a>
+					<a href="web/contacto.html">Contact</a>								
 				</nav>
 			</div>
 		</header>
