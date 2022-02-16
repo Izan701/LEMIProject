@@ -40,7 +40,7 @@
 						<xsl:attribute name="class">inner</xsl:attribute>
 						<header class="major special">
 							<h1>Xbox Game Pass</h1>
-							<p>Videogame list</p>
+							<p>Service list</p>
 						</header>
 
 
