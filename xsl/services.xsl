@@ -23,8 +23,8 @@
 						<a href="#" class="logo">Xbox Game Pass</a>
 						<nav id="nav">
 							<a href="../index.html">Home page</a>
-							<a href="#">Videogame catalog</a>
-							<a href="services.xml">Service catalog</a>
+							<a href="games.xml">Videogame catalog</a>
+							<a href="#">Service catalog</a>
 							<a href="../web/contact.html">Contact</a>								
 						</nav>
 					</div>
@@ -43,55 +43,36 @@
 							<p>Videogame list</p>
 						</header>
 
-						<xsl:variable name="disc">
-							<xsl:value-of select="$gamePassXML/gamePass/games/discount"/>
-						</xsl:variable>
 
 						<xsl:element name="table">
 							<thead>
 								<xsl:element name="tr">
 									<xsl:element name="th"></xsl:element>
-									<xsl:element name="th">Game</xsl:element>
-									<xsl:element name="th">Platform</xsl:element>
+									<xsl:element name="th">Version</xsl:element>
 									<xsl:element name="th">Price</xsl:element>
-									<xsl:element name="th">Game Pass price</xsl:element>
-									<xsl:element name="th">Date released</xsl:element>
-									<xsl:element name="th">Developer</xsl:element>
-									<xsl:element name="th">Publisher</xsl:element>
+									<xsl:element name="th">Includes</xsl:element>
 								</xsl:element>
 							</thead>
 							
-							<xsl:for-each select="$gamePassXML/gamePass/games/game">
-								<xsl:sort select="name" order="ascending"/>
+							<xsl:for-each select="$gamePassXML/gamePass/services/service">
+								<xsl:sort select="name" order="descending"/>
 
 								<xsl:element name="tr">
 									<xsl:element name="td">
 										<xsl:element name="img">
-											<xsl:attribute name="src"><xsl:value-of select="image"/></xsl:attribute>
+											<xsl:attribute name="src">../<xsl:value-of select="image"/></xsl:attribute>
 											<xsl:attribute name="width">180px</xsl:attribute>
 										</xsl:element>
 									</xsl:element>
 
-									<xsl:variable name="price"><xsl:value-of select="price"/></xsl:variable>
-									
 									<xsl:element name="td"><xsl:value-of select="name"/></xsl:element>
-									<xsl:element name="td"><xsl:value-of select="platform"/></xsl:element>
 
-									<!-- Condition when a game is free -->
-									<xsl:choose>
-										<xsl:when test="price > 0">
-											<xsl:element name="td"><xsl:value-of select="concat($price, price/@currency)"/></xsl:element>
-											<xsl:element name="td"><xsl:value-of select="concat(format-number(($price * $disc),'#.##'), price/@currency)"/></xsl:element>
-										</xsl:when>
-										<xsl:otherwise>
-											<xsl:element name="td"><xsl:value-of select="$price"/></xsl:element>
-											<xsl:element name="td"><xsl:value-of select="$price"/></xsl:element>									
-										</xsl:otherwise>
-									</xsl:choose>
 
-									<xsl:element name="td"><xsl:value-of select="release"/></xsl:element>
-									<xsl:element name="td"><xsl:value-of select="dev"/></xsl:element>
-									<xsl:element name="td"><xsl:value-of select="publisher"/></xsl:element>
+									<xsl:variable name="price"><xsl:value-of select="price"/></xsl:variable>
+									<xsl:element name="td"><xsl:value-of select="concat($price, price/@currency)"/></xsl:element>
+
+
+									<xsl:element name="td"><xsl:value-of select="includes"/></xsl:element>
 								</xsl:element>
 							</xsl:for-each>
 						</xsl:element>
