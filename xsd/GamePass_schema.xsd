@@ -1,46 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
     
+
+
+    <xs:simpleType name="rprice">
+        <xs:restriction base="xs:decimal"> 
+            <xs:fractionDigits value="2"/> 
+        </xs:restriction> 
+    </xs:simpleType>
+
+    <xs:simpleType name="url">
+        <xs:restriction base="xsd:string">
+            <xs:pattern value="[h][t]{2}[ps]://[w]{3}.*"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+
+
+
+
     <xs:element name="gamePass">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="services"/>
                 <xs:element name="games"/>
             </xs:sequence>
-    </xs:complexType>
-  </xs:element>
+        </xs:complexType>
+    </xs:element>
 
-  <xs:element name="services">
+    <xs:element name="services">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="service"/>
             </xs:sequence>
-<       </xs:complexType>
+        </xs:complexType>
     </xs:element>
 
     <xs:element name="service">
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="name"/>
-                <xs:element name="price"/>
+                <xs:element name="price" type="rprice"/>
                 <xs:element name="includes"/>
             </xs:sequence>
-<       </xs:complexType>
+        </xs:complexType>
     </xs:element>
 
 
         <xs:complexType name="game"> 
             <xs:sequence>
                 <xs:element name="name" type="xs:string"/>
-                <xs:element name="image"/>
+                <xs:element name="image" type="url"/>
                 <xs:element name="platform"/>
                 <xs:element name="price"/>
                 <xs:element name="release" type="xs:date"/>
                 <xs:element name="dev"/>
                 <xs:element name="publisher"/>
+                <xs:element name="review" type="url"/>
             </xs:sequence>
-<       </xs:complexType>
+        </xs:complexType>
 
+        <xs:complexType name="price">
+            <xs:simpleContent>
+                <xs:extension base="rprice">
+                    <xs:attribute name="currency">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="€"/>
+                                <xs:enumeration value="$"/>
+                                <xs:enumeration value="¥"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:extension>
+            </xs:simpleContent>
+        </xs:complexType>
 
 
 </xs:schema>
