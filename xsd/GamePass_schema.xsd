@@ -15,6 +15,14 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:simpleType name="pltfrm">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Console"/>
+            <xs:enumeration value="PC"/>
+            <xs:enumeration value="Mobile"/>
+        </xs:restriction>
+    </xs:simpleType>
+
 
 
 
@@ -54,7 +62,7 @@
             <xs:sequence>
                 <xs:element name="name" type="xs:string"/>
                 <xs:element name="image" type="url"/>
-                <xs:element name="platform"/>
+                <xs:element name="platform" type="pltfrm" maxOccurs="unbounded"/>
                 <xs:element name="price"/>
                 <xs:element name="release" type="xs:date"/>
                 <xs:element name="dev" type="xs:string"/>
