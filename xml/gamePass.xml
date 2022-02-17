@@ -4,14 +4,14 @@
     <services>
         <service>
             <name>Ultimate</name>
-            <price currency="€">12.99</price>
+            <price>12.99</price>
             <includes>EA Play, Gold, XBOX Cloud Gaming, Games</includes>
             <image>images/gamePassUltimate.jpg</image>
         </service>
 
         <service>
             <name>PC</name>
-            <price currency="€">9.99</price>
+            <price>9.99</price>
             <includes>EA play, Games</includes>
             <image>images/gamePass.png</image>
         </service>
