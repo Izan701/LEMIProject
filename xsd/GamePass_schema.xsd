@@ -44,6 +44,7 @@
                 <xs:element name="name" type="xs:string"/>
                 <xs:element name="price" type="rprice"/>
                 <xs:element name="includes" type="xs:string"/>
+                <xs:element name="image"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
