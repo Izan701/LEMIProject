@@ -58,6 +58,7 @@
 									<xsl:element name="th">Date released</xsl:element>
 									<xsl:element name="th">Developer</xsl:element>
 									<xsl:element name="th">Publisher</xsl:element>
+									<xsl:element name="th">Reviews</xsl:element>
 								</xsl:element>
 							</thead>
 							
@@ -85,7 +86,7 @@
 											<xsl:element name="td">
 													<xsl:value-of select="concat(format-number(($price * $disc),'#.##'), price/@currency)"/>
 												<xsl:if test="$price - $price * $disc >= 9.99">
-													<div class="gold">Incredible discount!</div>
+													<div class="green">Incredible discount!</div>
 												</xsl:if>
 											</xsl:element>
 										</xsl:when>
@@ -98,6 +99,15 @@
 									<xsl:element name="td"><xsl:value-of select="release"/></xsl:element>
 									<xsl:element name="td"><xsl:value-of select="dev"/></xsl:element>
 									<xsl:element name="td"><xsl:value-of select="publisher"/></xsl:element>
+									<xsl:element name="td">
+										<xsl:element name="a">
+											<xsl:attribute name="href">
+												<xsl:value-of select="review"/>
+											</xsl:attribute>
+											<xsl:attribute name="target">_blank</xsl:attribute>
+											Check Metacritic!
+										</xsl:element>
+									</xsl:element>
 								</xsl:element>
 							</xsl:for-each>
 						</xsl:element>

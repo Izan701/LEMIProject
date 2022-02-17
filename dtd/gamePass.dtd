@@ -9,10 +9,11 @@
 <!ELEMENT image (#PCDATA)>
 <!ELEMENT games (discount, game+)>
 <!ELEMENT discount (#PCDATA)>
-<!ELEMENT game (name, image, platform, price, release, dev, publisher)>
+<!ELEMENT game (name, image, platform, price, release, dev, publisher, review)>
 <!ATTLIST game
           id CDATA #REQUIRED>
 <!ELEMENT platform (#PCDATA)>
 <!ELEMENT release (#PCDATA)>
 <!ELEMENT dev (#PCDATA)>
 <!ELEMENT publisher (#PCDATA)>
+<!ELEMENT review (#PCDATA)>
