@@ -1,5 +1,5 @@
 *Schema
-***Add child element review, into game, which is a link to metacritic (Minimum equirement 6)
-***Pattern restriction to at last one element (Minimum equirement 12 & raise the grade 28)
-***3 user defined datatypes (Minimum equirement 13 & raise the grade 29)
-***3 restrictions or facets (Minimum equirement 11):1 price-->fractionDigits (could be a type to)
+***Add child element review, into game, which is a link to metacritic (Minimum requirement 6)
+***Pattern restriction to at last one element (Minimum requirement 12 & raise the grade 28)
+***3 user defined datatypes (Minimum requirement 13 & raise the grade 29)
+***3 restrictions or facets (Minimum requirement 11):1 price-->fractionDigits (could be a type to)

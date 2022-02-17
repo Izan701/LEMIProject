@@ -81,7 +81,13 @@
 									<xsl:choose>
 										<xsl:when test="price > 0">
 											<xsl:element name="td"><xsl:value-of select="concat($price, price/@currency)"/></xsl:element>
-											<xsl:element name="td"><xsl:value-of select="concat(format-number(($price * $disc),'#.##'), price/@currency)"/></xsl:element>
+											
+											<xsl:element name="td">
+													<xsl:value-of select="concat(format-number(($price * $disc),'#.##'), price/@currency)"/>
+												<xsl:if test="$price - $price * $disc >= 9.99">
+													<div class="gold">Incredible discount!</div>
+												</xsl:if>
+											</xsl:element>
 										</xsl:when>
 										<xsl:otherwise>
 											<xsl:element name="td"><xsl:value-of select="$price"/></xsl:element>
