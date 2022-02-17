@@ -43,6 +43,9 @@
 							<p>Service list</p>
 						</header>
 
+						<xsl:variable name="vat">
+							<xsl:value-of select="$gamePassXML/gamePass/vat"/>
+						</xsl:variable>
 
 						<xsl:element name="table">
 							<thead>
@@ -50,6 +53,7 @@
 									<xsl:element name="th"></xsl:element>
 									<xsl:element name="th">Version</xsl:element>
 									<xsl:element name="th">Price</xsl:element>
+									<xsl:element name="th">Price (With VAT)</xsl:element>
 									<xsl:element name="th">Includes</xsl:element>
 								</xsl:element>
 							</thead>
@@ -70,6 +74,7 @@
 
 									<xsl:variable name="price"><xsl:value-of select="price"/></xsl:variable>
 									<xsl:element name="td"><xsl:value-of select="concat($price, price/@currency)"/></xsl:element>
+									<xsl:element name="td"><xsl:value-of select="concat(format-number($price + $price * $vat div 100,'#.##'), price/@currency)"/></xsl:element>
 
 
 									<xsl:element name="td"><xsl:value-of select="includes"/></xsl:element>

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE gamePass SYSTEM "../dtd/gamePass.dtd">
+<!-- <!DOCTYPE gamePass SYSTEM "../dtd/gamePass.dtd"> -->
 <gamePass>
+    <discount>0.8</discount>
+    <vat>21</vat>
     <services>
         <service>
             <name>Ultimate</name>
@@ -24,12 +26,15 @@
         </service>
     </services>
     <games>
-        <discount>0.8</discount>
 
         <game id="g001">
             <name>Forza Horizon 4 Standard Edition</name>
             <image>https://store-images.s-microsoft.com/image/apps.36093.14343301090572358.2000000000007864116.1feb0fed-abe9-4849-b638-8d7eca69cff4?q=90</image>
-            <platform>Console, PC and mobile</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>PC</platform>
+                <platform>Mobile</platform>
+            </platforms>
             <price currency="€">39.99</price>
 	        <release>2018-09-28</release>
             <dev>Turn 10 Studios, Playground Games</dev>
@@ -39,7 +44,11 @@
         <game id="g002">
             <name>Gang Beasts</name>
             <image>https://store-images.s-microsoft.com/image/apps.35593.68150164172276526.ddc374d7-ef5e-43b9-940a-bbc04440bb33.e0c05607-881c-449f-826b-fec43403598c?q=90</image>
-            <platform>Console, PC and mobile</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>PC</platform>
+                <platform>Mobile</platform>
+            </platforms>
             <price currency="€">19.99</price>
             <release>2014-08-29</release>
             <dev>Boneloaf, Coatsink</dev>
@@ -49,7 +58,10 @@
         <game id="g003">
             <name>Halo Infinite</name>
             <image>https://store-images.s-microsoft.com/image/apps.13795.14330850369313893.ca028cc6-0250-4527-9563-95c2d95d43f8.f3983463-cc8b-453d-ade7-1530a454085f?q=90</image>
-            <platform>Console and PC</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>PC</platform>
+            </platforms>
             <price currency="€">69.99</price>
 	        <release>2021-12-08</release>
             <dev>343 Industries</dev>
@@ -59,7 +71,10 @@
         <game id="g004">
             <name>HITMAN Trilogy</name>
             <image>https://store-images.s-microsoft.com/image/apps.43099.14144194933273826.3ced5741-3e78-4437-9d89-92e9ac9b74fc.5d72efb4-9b30-4b1a-8e97-adda6b1be68d?q=90</image>
-            <platform>Console and PC</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>PC</platform>
+            </platforms>
             <price currency="€">59.99</price>
 	        <release>2022-01-20</release>
             <dev>IO Interactive</dev>
@@ -69,7 +84,11 @@
         <game id="g005">
             <name>Minecraft</name>
             <image>https://store-images.s-microsoft.com/image/apps.17382.13510798885735219.9735d495-578c-4a4c-b892-3eb3a780b3a0.d3792486-cf98-40c0-a2c1-d6443f0e2b70?q=90</image>
-            <platform>Console, PC and Mobile</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>PC</platform>
+                <platform>Mobile</platform>
+            </platforms>
             <price currency="€">23.95</price>
 	        <release>2011-11-18</release>
             <dev>Mojang, Microsoft</dev>
@@ -79,7 +98,11 @@
         <game id="g006">
             <name>Mortal Kombat 11</name>
             <image>https://store-images.s-microsoft.com/image/apps.9688.70804610839547354.8da93c46-fd13-4b16-8ebe-e8e02c53d93e.09c2e91e-28bd-4f6f-bfd6-79d6b241667a?q=90</image>
-            <platform>Console, PC and mobile</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>PC</platform>
+                <platform>Mobile</platform>
+            </platforms>
             <price currency="€">49.99</price>
 	        <release>2019-04-22</release>
             <dev>NetherRealm Studios, QLOC, Shiver Entertainment</dev>
@@ -89,7 +112,11 @@
         <game id="g007">
             <name>Sea of Thieves</name>
             <image>https://store-images.s-microsoft.com/image/apps.16347.14554784103656548.6c0bfca6-ceff-4368-9bde-2fe50f344136.007dce43-6492-46f2-bb2b-2b28df98fc3c?q=90</image>
-            <platform>Console, PC and mobile</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>PC</platform>
+                <platform>Mobile</platform>
+            </platforms>
 	        <price currency="€">39.99</price>
 	        <release>2018-03-20</release>
             <dev>Rare</dev>
@@ -99,7 +126,10 @@
         <game id="g008">
             <name>Octopath Traveller</name>
             <image>https://store-images.s-microsoft.com/image/apps.35609.13539010844025035.cd25451c-c47c-45c8-b378-724488a9e769.f5b7bd24-0155-4432-a51f-ddf22fc1bbd7?q=90</image>
-            <platform>Console,PC</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>PC</platform>
+            </platforms>
             <price currency="€">44.99</price>
 	        <release>2018-07-13</release>
             <dev>Square Enix, ACQUIRE Corp</dev>
@@ -109,7 +139,9 @@
         <game id="g009">
             <name>Destiny 2</name>
             <image>https://store-images.s-microsoft.com/image/apps.15749.14134992626562533.45eb17c9-271a-401c-b19e-b47df75b7600.f4dee6b7-ed92-4bdb-8c66-a45238b9e9a1?q=90</image>
-            <platform>PC</platform>
+            <platforms>
+                <platform>PC</platform>
+            </platforms>
             <price currency="€">Free</price>
 	        <release>2017-08-28</release>
             <dev>Bungie Studios</dev>
@@ -119,7 +151,10 @@
         <game id="g010">
             <name>The Elder Scrolls V: Skyrim Special Edition</name>
             <image>https://store-images.s-microsoft.com/image/apps.64810.68326442227858632.03782b23-7f26-4a8e-ba87-177bdf2c3c90.fdefe49f-270c-44e5-b660-6d7764b37f0f?q=90</image>
-            <platform>Console, Mobile</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>Mobile</platform>
+            </platforms>
             <price currency="€">39.99</price>
 	        <release>2016-10-28</release>
             <dev>Bethesda Game Studios</dev>
@@ -127,319 +162,49 @@
             <review>https://www.metacritic.com/game/pc/the-elder-scrolls-v-skyrim</review>
         </game>
         <game id="g011">
-            <name>Tom Clancy’s Rainbow Six® Extraction</name>
-            <image>https://store-images.s-microsoft.com/image/apps.7039.63231504676176196.fce3b959-5f54-4aad-a199-00e19cf052ba.0b7d81c1-9a6a-491f-af83-7123aaa1e5bd?q=90</image>
-            <platform>Console</platform>
-            <price currency="€">39.99</price>
-	        <release>2022-01-20</release>
-            <dev>UBISOFT MONTREAL</dev>
-            <publisher>UBISOFT</publisher>
-            <review>https://www.metacritic.com/game/pc/tom-clancys-rainbow-six-extraction</review>
-        </game>
-        <game id="g012">
             <name>A Plague Tale: Innocence</name>
             <image>https://store-images.s-microsoft.com/image/apps.14356.68306748966338141.e6f96fac-aa67-4f59-9043-10654607aa79.aa73acc4-f944-4ab1-83c3-265506b1529d?q=90</image>
-            <platform>PC</platform>
+            <platforms>
+                <platform>PC</platform>
+            </platforms>
             <price currency="€">44.99</price>
 	        <release>2020-01-23</release>
             <dev>Asobo Studio</dev>
             <publisher>Focus Home Interactive</publisher>
             <review>https://www.metacritic.com/game/pc/a-plague-tale-innocence</review>
         </game>
-        <game id="g013">
+        <game id="g012">
             <name>Age of Empires Definitive Edition</name>
             <image>https://store-images.s-microsoft.com/image/apps.2072.13672427983916579.274b1ffd-9cde-4bef-9a3e-6f37073d5ed0.b81c0b81-e80e-4500-bdc7-0939f60b77bc?q=90</image>
-            <platform>PC</platform>
+            <platforms>
+                <platform>PC</platform>
+            </platforms>
             <price currency="€">19.99</price>
 	        <release>2019-08-19</release>
             <dev>Forgotten Empires</dev>
             <publisher>Xbox Game Studios</publisher>
             <review>https://www.metacritic.com/game/pc/age-of-empires-definitive-edition</review>
         </game>
-        <game id="g014">
+        <game id="g013">
             <name>My Friend Pedro</name>
             <image>https://store-images.s-microsoft.com/image/apps.40255.13688074046071077.6938c4a2-fd96-488f-af50-150fa03c98ef.4679ed83-05e2-4466-8fb3-6a72f2272cd8?q=90</image>
-            <platform>PC</platform>
+            <platforms>
+                <platform>PC</platform>
+            </platforms>
             <price currency="€">15.99</price>
 	        <release>2019-12-05</release>
             <dev>Deadtoast</dev>
             <publisher>Devolver Digital</publisher>
             <review>https://www.metacritic.com/game/pc/my-friend-pedro</review>
         </game>
-        <game id="g015">
-            <name>Age of Empires II: Definitive Edition</name>
-            <image>https://store-images.s-microsoft.com/image/apps.55056.13678235101671609.c350aa6a-23e2-407c-94fd-5050e9bedb6f.f8b5d931-11f6-46e3-859f-54981d5b9d1b?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">19.99</price>
-	        <release>2019-11-14</release>
-            <dev>Forgotten Empires, Tantalus</dev>
-            <publisher>Xbox Game Studios</publisher>
-            <review>https://www.metacritic.com/game/pc/age-of-empires-ii-definitive-edition</review>
-        </game>
-        <game id="g017">
-            <name>Age of Empires III: Definitive Edition</name>
-            <image>https://store-images.s-microsoft.com/image/apps.44836.13905755391310011.6681c157-530b-4476-b20e-6cf142a9a94e.68338542-85c0-440d-a85c-137a38a0a268?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">19.99</price>
-	        <release>2020-10-15</release>
-            <dev>Tantalus Media, Forgotten Empires</dev>
-            <publisher>Xbox Game Studios</publisher>
-            <review>https://www.metacritic.com/game/pc/age-of-empires-iii-definitive-edition</review>
-        </game>
-        <game id="g016">
-            <name>Age of Empires IV</name>
-            <image>https://store-images.s-microsoft.com/image/apps.50806.13544212316148791.0ab819ba-bbe9-4cd3-a296-1f2cb4ece49d.7ae3290f-b69e-4301-b8bb-e49a54c8f621?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">59.99</price>
-	        <release>2021-10-28</release>
-            <dev>Relic Entertainment, World's Edge</dev>
-            <publisher>Xbox Game Studios</publisher>
-            <review>https://www.metacritic.com/game/pc/age-of-empires-iv</review>
-        </game>
-        <game id="g018">
-            <name>AI: THE SOMNIUM FILES</name>
-            <image>https://store-images.s-microsoft.com/image/apps.60995.14532753298259851.fe5f1fef-6b24-4916-ae82-ce72a7c18637.20cd68f6-8a82-4d2c-9724-30a6e7ed8940?q=90</image>
-            <platform>Console, PC</platform>
-            <price currency="€">39.99</price>
-            <release>2021-09-30</release>
-            <dev>Spike Chunsoft</dev>
-            <publisher>Spike Chunsoft</publisher>
-            <review>https://www.metacritic.com/game/pc/ai-the-somnium-files</review>
-        </game>
-        <game id="g019">
-            <name>NieR:Automata BECOME AS GODS Edition</name>
-            <image>https://store-images.s-microsoft.com/image/apps.48528.68662117307814849.d86c4ebf-4ee7-4307-bce4-30e6169169a8.f7c430e0-ce78-47f1-bfe4-3ddf380912ef?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">39.99</price>
-	        <release>2021-03-18</release>
-            <dev>PlatinumGames Inc.</dev>
-            <publisher>SQUARE ENIX</publisher>
-            <review>https://www.metacritic.com/game/xbox-one/nier-automata---become-as-gods-edition</review>
-        </game>
-        <game id="g020">
-            <name>Alan Wake's American Nightmare</name>
-            <image>https://store-images.s-microsoft.com/image/apps.1865.71809554577530464.cb2c0ad9-fe6e-458d-8dc5-24fd7199c312.662daaf1-db78-407c-8782-2a270069ba78?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">8.99</price>
-	        <release>2021-10-28</release>
-            <dev>Remedy Entertainment</dev>
-            <publisher>Remedy Entertainment</publisher>
-            <review>https://www.metacritic.com/game/pc/alan-wakes-american-nightmare</review>
-        </game>
-        <game id="g021">
-            <name>Alien: Isolation</name>
-            <image>https://store-images.s-microsoft.com/image/apps.61074.64854652411309764.b4096ab7-d7c5-44f0-a216-0ae26d8620af.2ef4ccf2-ebad-49a1-bd38-18834c758df2?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">39.99</price>
-	        <release>2020-04-09</release>
-            <dev>Lab42</dev>
-            <publisher>SEGA Europe Ltd</publisher>
-            <review>https://www.metacritic.com/game/pc/alien-isolation</review>
-        </game>
-        <game id="g022">
-            <name>Aliens: Fireteam Elite</name>
-            <image>https://store-images.s-microsoft.com/image/apps.48016.14189206062547849.34667497-3c97-48d3-916d-0cd555e3aee9.bf7b37bc-9777-47ae-98c1-a56ad4015ae7?q=90</image>
-            <platform>Console, PC</platform>
-            <price currency="€">39.99</price>
-	        <release>2021-08-24</release>
-            <dev>Cold Iron Studios</dev>
-            <publisher>Cold Iron Studios</publisher>
-            <review>https://www.metacritic.com/game/pc/aliens-fireteam-elite</review>
-        </game>
-        <game id="g024">
-            <name>Astria Ascending</name>
-            <image>https://store-images.s-microsoft.com/image/apps.40636.13848754335407647.66ca62ea-ec06-4597-8c24-d1dd403875c5.a57d9349-e85b-4646-847e-386a023dfe24?q=90</image>
-            <platform>Console, PC</platform>
-            <price currency="€">39.99</price>
-            <release>2021-09-30</release>
-            <dev>Artisan Studios</dev>
-            <publisher>Dear Villagers</publisher>
-            <review>https://www.metacritic.com/game/pc/astria-ascending</review>
-        </game>
-        <game id="g023">
-            <name>ASTRONEER</name>
-            <image>https://store-images.s-microsoft.com/image/apps.17703.13510798887933723.57e43f19-4066-429e-b1a2-caea56e427b4.f555e1de-d116-4ab1-bed1-408a78622ba6?q=90</image>
-            <platform>Console, PC</platform>
-            <price currency="€">29.99</price>
-	        <release>2019-02-06</release>
-            <dev>System Era Softworks</dev>
-            <publisher>System Era Softworks</publisher>
-            <review>https://www.metacritic.com/game/pc/astroneer</review>
-        </game>
-        <game id="g025">
-            <name>Backbone</name>
-            <image>https://store-images.s-microsoft.com/image/apps.29325.13571577878997765.bf0e584f-1da0-45dc-9616-f8707de4bf08.245f3d50-2d31-4023-bfb5-c550107e4215?q=90</image>
-            <platform>PC, Console</platform>
-            <price currency="€">24.99</price>
-	        <release>2021-06-08</release>
-            <dev>Eggnut</dev>
-            <publisher>Raw Fury</publisher>
-            <review>https://www.metacritic.com/game/pc/backbone</review>
-        </game>
-        <game id="g026">
-            <name>Ben 10: Power Trip</name>
-            <image>https://store-images.s-microsoft.com/image/apps.683.13672727399820228.e1322d27-4961-46da-9c7b-c310d3e28cb1.e9be41b7-c7f3-4c93-b981-113631a8fa2d?q=90</image>
-            <platform>Console, PC</platform>
-            <price currency="€">39.99</price>
-	        <release>2020-10-09</release>
-            <dev>PHL Collective</dev>
-            <publisher>Outright Games Ltd</publisher>
-            <review>https://www.metacritic.com/game/pc/ben-10-power-trip</review>
-        </game>
-        <game id="g027">
-            <name>Human Fall Flat</name>
-            <image>https://store-images.s-microsoft.com/image/apps.63639.69811231537758929.80d9f36d-dcc6-4f15-97d0-006930ca9c93.8cd994fb-2f2d-4381-a252-66572a00c82a?q=90</image>
-            <platform>Console, PC</platform>
-            <price currency="€">19.99</price>
-	        <release>2017-05-12</release>
-            <dev>No Brakes Games</dev>
-            <publisher>Curve Games</publisher>
-            <review>https://www.metacritic.com/game/pc/human-fall-flat</review>
-        </game>
-        <game id="g028">
-            <name>Bridge Constructor Portal</name>
-            <image>https://store-images.s-microsoft.com/image/apps.28226.14211523760966119.47325f22-a2fa-4b0b-b9bb-db08b1db4472.e3c4fbc2-5b4d-47ba-9e83-f27971da31ff?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">9.99</price>
-	        <release>2018-10-18</release>
-            <dev>ClockStone Software GmbH</dev>
-            <publisher>Headup GmbH</publisher>
-            <review>https://www.metacritic.com/game/pc/bridge-constructor-portal</review>
-        </game>
-        <game id="g029">
-            <name>Hollow Knight</name>
-            <image>https://store-images.s-microsoft.com/image/apps.18195.14259955503324792.fee0f975-9292-4852-ad19-c6ec880d57d3.35e9f104-1086-48a4-a429-c1c8dd863347?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">14.99</price>
-	        <release>2019-06-09</release>
-            <dev>Team Cherry</dev>
-            <publisher>Team Cherry</publisher>
-            <review>https://www.metacritic.com/game/pc/hollow-knight</review>
-        </game>
-        <game id="g030">
-            <name>Broken Age</name>
-            <image>https://store-images.s-microsoft.com/image/apps.12656.69320940561073110.189571f5-bf61-4250-851f-3d627dfcdc29.695e62b5-19f8-4531-892c-a34153291adf?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">14.99</price>
-	        <release>2017-06-23</release>
-            <dev>Double Fine Productions, Harebrained Schemes</dev>
-            <publisher>Double Fine Productions, Inc.</publisher>
-            <review>https://www.metacritic.com/game/pc/broken-age</review>
-        </game>
-        <game id="g031">
-            <name>Cities: Skylines</name>
-            <image>https://store-images.s-microsoft.com/image/apps.38447.14442149246756025.e0e6c583-8325-415d-813c-e90e0ab7057a.309e5a51-4e69-41a1-8d19-d19c72140230?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">39.99</price>
-	        <release>2017-05-19</release>
-            <dev>Tantalus Media</dev>
-            <publisher>Paradox Interactive</publisher>
-            <review>https://www.metacritic.com/game/pc/cities-skylines</review>
-        </game>
-        <game id="g032">
-            <name>CODE VEIN</name>
-            <image>https://store-images.s-microsoft.com/image/apps.57479.67309809726168278.238b1eb9-bece-4b2e-b1e8-19ca99512d56.7399948a-f615-497e-8e65-18acd0adf133?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">47.99</price>
-	        <release>2021-02-18</release>
-            <dev>BANDAI NAMCO Studios</dev>
-            <publisher>BANDAI NAMCO Entertainment America Inc.</publisher>
-            <review>https://www.metacritic.com/game/pc/code-vein</review>
-        </game>
-        <game id="g033">
-            <name>Conan Exiles</name>
-            <image>https://store-images.s-microsoft.com/image/apps.20349.66261947870001438.5888990a-663b-4dfc-97b4-9b357bc5fec6.e2b1b42c-940f-4dca-90b7-28adcbe26122?q=90</image>
-            <platform>Console, PC</platform>
-            <price currency="€">39.99</price>
-	        <release>2018-05-08</release>
-            <dev>Funcom</dev>
-            <publisher>Funcom</publisher>
-            <review>https://www.metacritic.com/game/pc/conan-exiles</review>
-        </game>
-        <game id="g034">
-            <name>Control Standard Edition</name>
-            <image>https://store-images.s-microsoft.com/image/apps.48174.14256445537254462.1f6ee6a2-431a-4f85-b644-10f2643bc799.7997f024-6fc8-4f29-82a5-4d67f76203b9?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">29.99</price>
-	        <release>2021-01-21</release>
-            <dev>Remedy Entertainment Plc.</dev>
-            <publisher>505 Games</publisher>
-            <review>https://www.metacritic.com/game/pc/control</review>
-        </game>
-        <game id="g035">
-            <name>Craftopia</name>
-            <image>https://store-images.s-microsoft.com/image/apps.15143.14415744061326680.ca18f220-3c29-47ac-b488-ffd7a3e0ba11.ba8cabd0-7650-4aed-9faf-e3ff3d0baab0?q=90</image>
-            <platform>PC, Console</platform>
-            <price currency="€">24.99</price>
-	        <release>2021-07-05</release>
-            <dev>POCKET PAIR, Inc.</dev>
-            <publisher>POCKET PAIR, Inc.</publisher>
-            <review>https://www.metacritic.com/game/pc/craftopia</review>
-        </game>
-        <game id="g036">
-            <name>Cricket 19</name>
-            <image>https://store-images.s-microsoft.com/image/apps.42716.14411869769901395.d2b64567-a344-4830-9799-e8f095962356.e04d3c50-2574-4fa8-a0df-16f1f349d7ec?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">32.49</price>
-	        <release>2021-02-25</release>
-            <dev>Big Ant Studios</dev>
-            <publisher>Big Ant Studios</publisher>
-            <review>https://www.metacritic.com/game/pc/cricket-19</review>
-        </game>
-        <game id="g037">
-            <name>Crusader Kings III</name>
-            <image>https://store-images.s-microsoft.com/image/apps.25959.14065406176999862.d433bba3-dfb8-463a-bd60-0c7bd30829d8.8a527e59-eb28-4692-a0cf-f4be29c66f58?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">49.99</price>
-	        <release>2020-09-01</release>
-            <dev>Paradox Development Studio</dev>
-            <publisher>Paradox Interactive</publisher>
-            <review>https://www.metacritic.com/game/pc/crusader-kings-iii</review>
-        </game>
-        <game id="g038">
-            <name>Dead by Daylight</name>
-            <image>https://store-images.s-microsoft.com/image/apps.5904.13756572830160292.fc7dc0d8-9b57-4e22-ba0f-cb9eb13277cc.4feb3935-c0bf-4e50-ab06-2df5bd33c4bd?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">19.99</price>
-	        <release>2019-10-31</release>
-            <dev>Behaviour Interactive Inc.</dev>
-            <publisher>Behaviour Interactive Inc.</publisher>
-            <review>https://www.metacritic.com/game/pc/dead-by-daylight</review>
-        </game>
-        <game id="g039">
-            <name>Dead Cells</name>
-            <image>https://store-images.s-microsoft.com/image/apps.33704.13719691835186674.79361d33-7a18-4554-8a50-66b60d3712e6.e6765def-b8a7-4b2a-a4b4-6acef925768a?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">24.99</price>
-	        <release>2019-09-05</release>
-            <dev>Motion Twin</dev>
-            <publisher>Motion Twin</publisher>
-            <review>https://www.metacritic.com/game/pc/dead-cells</review>
-        </game>
-        <game id="g040">
-            <name>Dishonored 2</name>
-            <image>https://store-images.s-microsoft.com/image/apps.25940.13846412966040921.9e60d32b-6c69-44a3-9f94-dcaf3d33e79c.eae2e333-c779-4063-aa07-62e6a3188fd6?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">29.99</price>
-	        <release>2019-10-03</release>
-            <dev>Arkane Studios</dev>
-            <publisher>Bethesda Softworks</publisher>
-            <review>https://www.metacritic.com/game/pc/dishonored-2</review>
-        </game>
-        <game id="g041">
-            <name>Doom Eternal Standard Edition</name>
-            <image>https://store-images.s-microsoft.com/image/apps.33238.64234556958324114.f920cec9-b4fb-47f4-bbac-667ed8bb82e6.3abee797-aba0-4c66-8be7-3fc9074dd446?q=90</image>
-            <platform>PC</platform>
-            <price currency="€">59.99</price>
-	        <release>2020-12-01</release>
-            <dev>id Software</dev>
-            <publisher>Bethesda Softworks</publisher>
-            <review>https://www.metacritic.com/game/pc/doom-eternal</review>
-        </game>
-        <game id="g042">
+        
+        <game id="g014">
             <name>Outer Wilds</name>
             <image>https://store-images.s-microsoft.com/image/apps.7475.67120997535715720.38c3e502-0019-4560-826e-634bbaf5cb4b.49bae061-49f7-4594-b2e4-17e7e25756ab?q=90</image>
-            <platform>Console, PC</platform>
+            <platforms>
+                <platform>Console</platform>
+                <platform>PC</platform>
+            </platforms>
             <price currency="€">24.99</price>
 	        <release>2019-05-29</release>
             <dev>Mobius Digital</dev>

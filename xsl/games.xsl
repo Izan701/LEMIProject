@@ -44,8 +44,12 @@
 						</header>
 
 						<xsl:variable name="disc">
-							<xsl:value-of select="$gamePassXML/gamePass/games/discount"/>
+							<xsl:value-of select="$gamePassXML/gamePass/discount"/>
 						</xsl:variable>
+						<xsl:variable name="vat">
+							<xsl:value-of select="$gamePassXML/gamePass/vat"/>
+						</xsl:variable>
+						
 
 						<xsl:element name="table">
 							<thead>
@@ -53,11 +57,11 @@
 									<xsl:element name="th"></xsl:element>
 									<xsl:element name="th">Game</xsl:element>
 									<xsl:element name="th">Platform</xsl:element>
-									<xsl:element name="th">Price</xsl:element>
+									<xsl:element name="th">Price (Including VAT)</xsl:element>
 									<xsl:element name="th">Game Pass price</xsl:element>
-									<xsl:element name="th">Date released</xsl:element>
-									<xsl:element name="th">Developer</xsl:element>
-									<xsl:element name="th">Publisher</xsl:element>
+									<!-- <xsl:element name="th">Date released</xsl:element> -->
+									<!-- <xsl:element name="th">Developer</xsl:element> -->
+									<!-- <xsl:element name="th">Publisher</xsl:element> -->
 									<xsl:element name="th">Reviews</xsl:element>
 								</xsl:element>
 							</thead>
@@ -76,16 +80,25 @@
 									<xsl:variable name="price"><xsl:value-of select="price"/></xsl:variable>
 									
 									<xsl:element name="td"><xsl:value-of select="name"/></xsl:element>
-									<xsl:element name="td"><xsl:value-of select="platform"/></xsl:element>
+
+									<xsl:element name="td">
+
+										<xsl:element name="ul">
+											<xsl:for-each select="platforms/platform">
+												<li><xsl:value-of select="current()"/></li>
+											</xsl:for-each>
+										</xsl:element>
+									
+									</xsl:element>
 
 									<!-- Condition when a game is free -->
 									<xsl:choose>
 										<xsl:when test="price > 0">
-											<xsl:element name="td"><xsl:value-of select="concat($price, price/@currency)"/></xsl:element>
+											<xsl:element name="td"><xsl:value-of select="concat(format-number($price + ($price * $vat div 100),'#.##'), price/@currency)"/></xsl:element>
 											
 											<xsl:element name="td">
-													<xsl:value-of select="concat(format-number(($price * $disc),'#.##'), price/@currency)"/>
-												<xsl:if test="$price - $price * $disc >= 9.99">
+													<xsl:value-of select="concat(format-number(($price + ($price * $vat div 100)) * $disc,'#.##'), price/@currency)"/>
+												<xsl:if test="($price * $vat div 100 * $disc) >= 9.99">
 													<div class="green">Incredible discount!</div>
 												</xsl:if>
 											</xsl:element>
@@ -96,9 +109,9 @@
 										</xsl:otherwise>
 									</xsl:choose>
 
-									<xsl:element name="td"><xsl:value-of select="release"/></xsl:element>
-									<xsl:element name="td"><xsl:value-of select="dev"/></xsl:element>
-									<xsl:element name="td"><xsl:value-of select="publisher"/></xsl:element>
+									<!-- <xsl:element name="td"><xsl:value-of select="release"/></xsl:element> -->
+									<!-- <xsl:element name="td"><xsl:value-of select="dev"/></xsl:element> -->
+									<!-- <xsl:element name="td"><xsl:value-of select="publisher"/></xsl:element> -->
 									<xsl:element name="td">
 										<xsl:element name="a">
 											<xsl:attribute name="href">
