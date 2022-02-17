@@ -44,3 +44,59 @@
 
 
 </xs:schema>
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="gamePass">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="services"/>
+        <xs:element ref="games"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="services">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="service" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="service">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element ref="price"/>
+        <xs:element name="includes" type="xs:string"/>
+        <xs:element name="image" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="price">
+    <xs:complexType mixed="true">
+      <xs:attribute name="currency" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="games">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="discount" type="xs:string"/>
+        <xs:element ref="game" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="game">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="name" type="xs:string"/>
+        <xs:element name="image" type="xs:string"/>
+        <xs:element name="platform" type="xs:string"/>
+        <xs:element ref="price"/>
+        <xs:element name="release" type="xs:string"/>
+        <xs:element name="dev" type="xs:string"/>
+        <xs:element name="publisher" type="xs:string"/>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

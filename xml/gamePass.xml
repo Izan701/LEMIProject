@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE gamePass SYSTEM "../dtd/gamePass.dtd">
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE gamePass SYSTEM "../dtd/gamePass.dtd"> -->
 <gamePass>
     <services>
         <service>
@@ -34,6 +34,7 @@
 	        <release>2018-09-28</release>
             <dev>Turn 10 Studios, Playground Games</dev>
             <publisher>Microsoft</publisher>
+            <review>https://www.metacritic.com/game/xbox-one/forza-horizon-4</review>
         </game>
         <game id="g002">
             <name>Gang Beasts</name>
@@ -43,6 +44,7 @@
             <release>2014-08-29</release>
             <dev>Boneloaf, Coatsink</dev>
             <publisher>Double Fine, Skybound Games, Boneloaf</publisher>
+            <review>https://www.metacritic.com/game/playstation-4/gang-beasts</review>
         </game>
         <game id="g003">
             <name>Halo Infinite</name>
@@ -52,6 +54,7 @@
 	        <release>2021-12-08</release>
             <dev>343 Industries</dev>
             <publisher>Microsoft</publisher>
+            <review>https://www.metacritic.com/game/xbox-series-x/halo-infinite</review>
         </game>
         <game id="g004">
             <name>HITMAN Trilogy</name>
@@ -61,6 +64,7 @@
 	        <release>2022-01-20</release>
             <dev>IO Interactive</dev>
             <publisher>IO Interactive</publisher>
+            <review>https://www.metacritic.com/game/playstation-3/hitman-hd-trilogy</review>
         </game>
         <game id="g005">
             <name>Minecraft</name>
@@ -70,6 +74,7 @@
 	        <release>2011-11-18</release>
             <dev>Mojang, Microsoft</dev>
             <publisher>Microsoft</publisher>
+            <review>https://www.metacritic.com/game/pc/minecraft</review>
         </game>
         <game id="g006">
             <name>Mortal Kombat 11</name>
@@ -79,6 +84,7 @@
 	        <release>2019-04-22</release>
             <dev>NetherRealm Studios, QLOC, Shiver Entertainment</dev>
             <publisher>Warner Bros Interactive entertainment</publisher>
+            <review>https://www.metacritic.com/game/playstation-4/mortal-kombat-11</review>
         </game>
         <game id="g007">
             <name>Sea of Thieves</name>
@@ -88,6 +94,7 @@
 	        <release>2018-03-20</release>
             <dev>Rare</dev>
             <publisher>Xbox Game Studios</publisher>
+            <review>https://www.metacritic.com/game/xbox-one/sea-of-thieves</review>
         </game>
         <game id="g008">
             <name>Octopath Traveller</name>
@@ -97,6 +104,7 @@
 	        <release>2018-07-13</release>
             <dev>Square Enix, ACQUIRE Corp</dev>
             <publisher>Square Enix</publisher>
+            <review>https://www.metacritic.com/game/pc/octopath-traveler</review>
         </game>
         <game id="g009">
             <name>Destiny 2</name>
@@ -106,6 +114,7 @@
 	        <release>2017-08-28</release>
             <dev>Bungie Studios</dev>
             <publisher>Bungie Studios, Activision</publisher>
+            <review>https://www.metacritic.com/game/pc/destiny-2</review>
         </game>
         <game id="g010">
             <name>The Elder Scrolls V: Skyrim Special Edition</name>
@@ -115,6 +124,7 @@
 	        <release>2016-10-28</release>
             <dev>Bethesda Game Studios</dev>
             <publisher>Bethesda Softworks</publisher>
+            <review>https://www.metacritic.com/game/pc/the-elder-scrolls-v-skyrim</review>
         </game>
         <game id="g011">
             <name>Tom Clancy’s Rainbow Six® Extraction</name>
@@ -124,6 +134,7 @@
 	        <release>2022-01-20</release>
             <dev>UBISOFT MONTREAL</dev>
             <publisher>UBISOFT</publisher>
+            <review>https://www.metacritic.com/game/pc/tom-clancys-rainbow-six-extraction</review>
         </game>
         <game id="g012">
             <name>A Plague Tale: Innocence</name>
@@ -133,6 +144,7 @@
 	        <release>2020-01-23</release>
             <dev>Asobo Studio</dev>
             <publisher>Focus Home Interactive</publisher>
+            <review>https://www.metacritic.com/game/pc/a-plague-tale-innocence</review>
         </game>
         <game id="g013">
             <name>Age of Empires Definitive Edition</name>
@@ -142,6 +154,7 @@
 	        <release>2019-08-19</release>
             <dev>Forgotten Empires</dev>
             <publisher>Xbox Game Studios</publisher>
+            <review>https://www.metacritic.com/game/pc/age-of-empires-definitive-edition</review>
         </game>
         <game id="g014">
             <name>My Friend Pedro</name>
@@ -151,6 +164,7 @@
 	        <release>2019-12-05</release>
             <dev>Deadtoast</dev>
             <publisher>Devolver Digital</publisher>
+            <review>https://www.metacritic.com/game/pc/my-friend-pedro</review>
         </game>
         <game id="g015">
             <name>Age of Empires II: Definitive Edition</name>
@@ -160,6 +174,7 @@
 	        <release>2019-11-14</release>
             <dev>Forgotten Empires, Tantalus</dev>
             <publisher>Xbox Game Studios</publisher>
+            <review>https://www.metacritic.com/game/pc/age-of-empires-ii-definitive-edition</review>
         </game>
         <game id="g017">
             <name>Age of Empires III: Definitive Edition</name>
@@ -169,6 +184,7 @@
 	        <release>2020-10-15</release>
             <dev>Tantalus Media, Forgotten Empires</dev>
             <publisher>Xbox Game Studios</publisher>
+            <review>https://www.metacritic.com/game/pc/age-of-empires-iii-definitive-edition</review>
         </game>
         <game id="g016">
             <name>Age of Empires IV</name>
@@ -178,6 +194,7 @@
 	        <release>2021-10-28</release>
             <dev>Relic Entertainment, World's Edge</dev>
             <publisher>Xbox Game Studios</publisher>
+            <review>https://www.metacritic.com/game/pc/age-of-empires-iv</review>
         </game>
         <game id="g018">
             <name>AI: THE SOMNIUM FILES</name>
@@ -187,6 +204,7 @@
             <release>2021-09-30</release>
             <dev>Spike Chunsoft</dev>
             <publisher>Spike Chunsoft</publisher>
+            <review>https://www.metacritic.com/game/pc/ai-the-somnium-files</review>
         </game>
         <game id="g019">
             <name>NieR:Automata BECOME AS GODS Edition</name>
@@ -196,6 +214,7 @@
 	        <release>2021-03-18</release>
             <dev>PlatinumGames Inc.</dev>
             <publisher>SQUARE ENIX</publisher>
+            <review>https://www.metacritic.com/game/xbox-one/nier-automata---become-as-gods-edition</review>
         </game>
         <game id="g020">
             <name>Alan Wake's American Nightmare</name>
@@ -205,6 +224,7 @@
 	        <release>2021-10-28</release>
             <dev>Remedy Entertainment</dev>
             <publisher>Remedy Entertainment</publisher>
+            <review>https://www.metacritic.com/game/pc/alan-wakes-american-nightmare</review>
         </game>
         <game id="g021">
             <name>Alien: Isolation</name>
@@ -214,6 +234,7 @@
 	        <release>2020-04-09</release>
             <dev>Lab42</dev>
             <publisher>SEGA Europe Ltd</publisher>
+            <review>https://www.metacritic.com/game/pc/alien-isolation</review>
         </game>
         <game id="g022">
             <name>Aliens: Fireteam Elite</name>
@@ -223,6 +244,7 @@
 	        <release>2021-08-24</release>
             <dev>Cold Iron Studios</dev>
             <publisher>Cold Iron Studios</publisher>
+            <review>https://www.metacritic.com/game/pc/aliens-fireteam-elite</review>
         </game>
         <game id="g024">
             <name>Astria Ascending</name>
@@ -232,6 +254,7 @@
             <release>2021-09-30</release>
             <dev>Artisan Studios</dev>
             <publisher>Dear Villagers</publisher>
+            <review>https://www.metacritic.com/game/pc/astria-ascending</review>
         </game>
         <game id="g023">
             <name>ASTRONEER</name>
@@ -241,6 +264,7 @@
 	        <release>2019-02-06</release>
             <dev>System Era Softworks</dev>
             <publisher>System Era Softworks</publisher>
+            <review>https://www.metacritic.com/game/pc/astroneer</review>
         </game>
         <game id="g025">
             <name>Backbone</name>
@@ -250,6 +274,7 @@
 	        <release>2021-06-08</release>
             <dev>Eggnut</dev>
             <publisher>Raw Fury</publisher>
+            <review>https://www.metacritic.com/game/pc/backbone</review>
         </game>
         <game id="g026">
             <name>Ben 10: Power Trip</name>
@@ -259,6 +284,7 @@
 	        <release>2020-10-09</release>
             <dev>PHL Collective</dev>
             <publisher>Outright Games Ltd</publisher>
+            <review>https://www.metacritic.com/game/pc/ben-10-power-trip</review>
         </game>
         <game id="g027">
             <name>Human Fall Flat</name>
@@ -268,6 +294,7 @@
 	        <release>2017-05-12</release>
             <dev>No Brakes Games</dev>
             <publisher>Curve Games</publisher>
+            <review>https://www.metacritic.com/game/pc/human-fall-flat</review>
         </game>
         <game id="g028">
             <name>Bridge Constructor Portal</name>
@@ -277,6 +304,7 @@
 	        <release>2018-10-18</release>
             <dev>ClockStone Software GmbH</dev>
             <publisher>Headup GmbH</publisher>
+            <review>https://www.metacritic.com/game/pc/bridge-constructor-portal</review>
         </game>
         <game id="g029">
             <name>Hollow Knight</name>
@@ -286,6 +314,7 @@
 	        <release>2019-06-09</release>
             <dev>Team Cherry</dev>
             <publisher>Team Cherry</publisher>
+            <review>https://www.metacritic.com/game/pc/hollow-knight</review>
         </game>
         <game id="g030">
             <name>Broken Age</name>
@@ -295,6 +324,7 @@
 	        <release>2017-06-23</release>
             <dev>Double Fine Productions, Harebrained Schemes</dev>
             <publisher>Double Fine Productions, Inc.</publisher>
+            <review>https://www.metacritic.com/game/pc/broken-age</review>
         </game>
         <game id="g031">
             <name>Cities: Skylines</name>
@@ -304,6 +334,7 @@
 	        <release>2017-05-19</release>
             <dev>Tantalus Media</dev>
             <publisher>Paradox Interactive</publisher>
+            <review>https://www.metacritic.com/game/pc/cities-skylines</review>
         </game>
         <game id="g032">
             <name>CODE VEIN</name>
@@ -313,6 +344,7 @@
 	        <release>2021-02-18</release>
             <dev>BANDAI NAMCO Studios</dev>
             <publisher>BANDAI NAMCO Entertainment America Inc.</publisher>
+            <review>https://www.metacritic.com/game/pc/code-vein</review>
         </game>
         <game id="g033">
             <name>Conan Exiles</name>
@@ -322,6 +354,7 @@
 	        <release>2018-05-08</release>
             <dev>Funcom</dev>
             <publisher>Funcom</publisher>
+            <review>https://www.metacritic.com/game/pc/conan-exiles</review>
         </game>
         <game id="g034">
             <name>Control Standard Edition</name>
@@ -331,6 +364,7 @@
 	        <release>2021-01-21</release>
             <dev>Remedy Entertainment Plc.</dev>
             <publisher>505 Games</publisher>
+            <review>https://www.metacritic.com/game/pc/control</review>
         </game>
         <game id="g035">
             <name>Craftopia</name>
@@ -340,6 +374,7 @@
 	        <release>2021-07-05</release>
             <dev>POCKET PAIR, Inc.</dev>
             <publisher>POCKET PAIR, Inc.</publisher>
+            <review>https://www.metacritic.com/game/pc/craftopia</review>
         </game>
         <game id="g036">
             <name>Cricket 19</name>
@@ -349,6 +384,7 @@
 	        <release>2021-02-25</release>
             <dev>Big Ant Studios</dev>
             <publisher>Big Ant Studios</publisher>
+            <review>https://www.metacritic.com/game/pc/cricket-19</review>
         </game>
         <game id="g037">
             <name>Crusader Kings III</name>
@@ -358,6 +394,7 @@
 	        <release>2020-09-01</release>
             <dev>Paradox Development Studio</dev>
             <publisher>Paradox Interactive</publisher>
+            <review>https://www.metacritic.com/game/pc/crusader-kings-iii</review>
         </game>
         <game id="g038">
             <name>Dead by Daylight</name>
@@ -367,6 +404,7 @@
 	        <release>2019-10-31</release>
             <dev>Behaviour Interactive Inc.</dev>
             <publisher>Behaviour Interactive Inc.</publisher>
+            <review>https://www.metacritic.com/game/pc/dead-by-daylight</review>
         </game>
         <game id="g039">
             <name>Dead Cells</name>
@@ -376,6 +414,7 @@
 	        <release>2019-09-05</release>
             <dev>Motion Twin</dev>
             <publisher>Motion Twin</publisher>
+            <review>https://www.metacritic.com/game/pc/dead-cells</review>
         </game>
         <game id="g040">
             <name>Dishonored 2</name>
@@ -385,6 +424,7 @@
 	        <release>2019-10-03</release>
             <dev>Arkane Studios</dev>
             <publisher>Bethesda Softworks</publisher>
+            <review>https://www.metacritic.com/game/pc/dishonored-2</review>
         </game>
         <game id="g041">
             <name>Doom Eternal Standard Edition</name>
@@ -394,6 +434,7 @@
 	        <release>2020-12-01</release>
             <dev>id Software</dev>
             <publisher>Bethesda Softworks</publisher>
+            <review>https://www.metacritic.com/game/pc/doom-eternal</review>
         </game>
         <game id="g042">
             <name>Outer Wilds</name>
@@ -403,6 +444,7 @@
 	        <release>2019-05-29</release>
             <dev>Mobius Digital</dev>
             <publisher>Annapurna Interactive</publisher>
+            <review>https://www.metacritic.com/game/pc/outer-wilds</review>
         </game>
     </games>
 </gamePass>
