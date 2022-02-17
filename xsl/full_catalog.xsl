@@ -40,7 +40,7 @@
 						<xsl:attribute name="class">inner</xsl:attribute>
 						<header class="major special">
 							<h1>Xbox Game Pass</h1>
-							<p>Videogame list</p>
+							<p>What's our catalog?</p>
 						</header>
 
 						<xsl:variable name="disc">
@@ -51,7 +51,67 @@
 						</xsl:variable>
 						
 
+						
+
 						<xsl:element name="table">
+							<caption>Services</caption>
+							<thead>
+								<xsl:element name="tr">
+									<xsl:element name="th"></xsl:element>
+									<xsl:element name="th">Version</xsl:element>
+									<xsl:element name="th">Price</xsl:element>
+									<xsl:element name="th">Price (With VAT)</xsl:element>
+									<xsl:element name="th">Includes</xsl:element>
+								</xsl:element>
+							</thead>
+							
+							<xsl:for-each select="$gamePassXML/gamePass/services/service">
+								<xsl:sort select="name" order="descending"/>
+
+								<xsl:element name="tr">
+									<xsl:element name="td">
+										<xsl:element name="img">
+											<xsl:attribute name="src">../<xsl:value-of select="image"/></xsl:attribute>
+											<xsl:attribute name="width">180px</xsl:attribute>
+										</xsl:element>
+									</xsl:element>
+
+									<xsl:element name="td"><xsl:value-of select="name"/></xsl:element>
+
+
+									<xsl:variable name="price"><xsl:value-of select="price"/></xsl:variable>
+									<xsl:element name="td"><xsl:value-of select="concat($price, price/@currency)"/></xsl:element>
+									<xsl:element name="td"><xsl:value-of select="concat(format-number($price + $price * $vat div 100,'#.##'), price/@currency)"/></xsl:element>
+
+
+									<xsl:element name="td">
+
+										<xsl:element name="ul">
+											<xsl:for-each select="includes/include">
+												<li><xsl:value-of select="current()"/></li>
+											</xsl:for-each>
+										</xsl:element>
+									
+									</xsl:element>
+								</xsl:element>
+							</xsl:for-each>
+
+
+
+							<xsl:element name="tr">
+								<th colspan="3"></th>
+								<th>Total services:</th>
+								<xsl:element name="td">
+									<xsl:value-of select="count($gamePassXML/gamePass/services/service)"></xsl:value-of>
+								</xsl:element>
+							</xsl:element>
+
+
+						</xsl:element>
+
+						<xsl:element name="table">
+							<caption>Videogames</caption>
+
 							<thead>
 								<xsl:element name="tr">
 									<xsl:element name="th"></xsl:element>
@@ -123,6 +183,14 @@
 									</xsl:element>
 								</xsl:element>
 							</xsl:for-each>
+							<xsl:element name="tr">
+								<th colspan="4"></th>
+								<th>Total games:</th>
+								<xsl:element name="td">
+									<xsl:value-of select="count($gamePassXML/gamePass/games/game)"></xsl:value-of>
+								</xsl:element>
+							</xsl:element>
+
 						</xsl:element>
 
 					</xsl:element>

@@ -23,7 +23,7 @@
 						<a href="#" class="logo">Xbox Game Pass</a>
 						<nav id="nav">
 							<a href="../index.html">Home page</a>
-							<a href="games.xml">Videogame catalog</a>
+							<a href="full_catalog.xml">Videogame catalog</a>
 							<a href="#">Service catalog</a>
 							<a href="../web/contact.html">Contact</a>								
 						</nav>
@@ -77,9 +77,29 @@
 									<xsl:element name="td"><xsl:value-of select="concat(format-number($price + $price * $vat div 100,'#.##'), price/@currency)"/></xsl:element>
 
 
-									<xsl:element name="td"><xsl:value-of select="includes"/></xsl:element>
+									<xsl:element name="td">
+
+										<xsl:element name="ul">
+											<xsl:for-each select="includes/include">
+												<li><xsl:value-of select="current()"/></li>
+											</xsl:for-each>
+										</xsl:element>
+									
+									</xsl:element>
 								</xsl:element>
 							</xsl:for-each>
+
+
+
+							<xsl:element name="tr">
+								<th colspan="3"></th>
+								<th>Total services:</th>
+								<xsl:element name="td">
+									<xsl:value-of select="count($gamePassXML/gamePass/services/service)"></xsl:value-of>
+								</xsl:element>
+							</xsl:element>
+
+
 						</xsl:element>
 
 					</xsl:element>
