@@ -42,7 +42,7 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="name" type="xs:string"/>
-                <xs:element name="price" type="rprice"/>
+                <xs:element name="price"/>
                 <xs:element name="includes" type="xs:string"/>
                 <xs:element name="image"/>
             </xs:sequence>
