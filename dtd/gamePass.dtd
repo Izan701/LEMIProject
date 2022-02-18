@@ -6,7 +6,7 @@
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
 <!ATTLIST price
-          currency CDATA "€">
+          currency CDATA (€|$|£) "€">
 <!ELEMENT includes (#PCDATA)>
 <!ELEMENT image (#PCDATA)>
 <!ELEMENT games (game+)>
