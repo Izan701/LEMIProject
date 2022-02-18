@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE gamePass SYSTEM "../dtd/gamePass.dtd">
-<!-- <gamePass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="../xsd/GamePass_schema.xsd"> -->
+<!DOCTYPE gamePass SYSTEM "../dtd/gamePass.dtd"> -->
+<!-- <gamePass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="../xsd/GamePass_schema.xsd">-->
 <gamePass>
     <discount>0.8</discount>
     <vat>21</vat>
