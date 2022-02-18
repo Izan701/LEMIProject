@@ -78,9 +78,9 @@
                     <xs:attribute name="currency">
                         <xs:simpleType>
                             <xs:restriction base="xs:string">
-                                <xs:enumeration value="€"/>
-                                <xs:enumeration value="$"/>
-                                <xs:enumeration value="¥"/>
+                                <xs:enumeration value="Euro"/>
+                                <xs:enumeration value="Dollar"/>
+                                <xs:enumeration value="Pound"/>
                             </xs:restriction>
                         </xs:simpleType>
                     </xs:attribute>
