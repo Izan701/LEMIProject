@@ -40,7 +40,7 @@
 						<xsl:attribute name="class">inner</xsl:attribute>
 						<header class="major special">
 							<h1>Xbox Game Pass</h1>
-							<p>Service list</p>
+							<p>Game list</p>
 						</header>
 
 						<xsl:variable name="vat">
@@ -98,10 +98,16 @@
 											<xsl:element name="td"><xsl:value-of select="concat(format-number($price + ($price * $vat div 100),'#.##'), price/@currency)"/></xsl:element>
 											
 											<xsl:element name="td">
+
+											<xsl:choose>
+												<xsl:when test="($price * $vat div 100 * $disc) >= 9.99">
+													<div class="discount"><xsl:value-of select="concat(format-number(($price + ($price * $vat div 100)) * $disc,'#.##'), price/@currency)"/></div>
+													<div class="discountGreen">Incredible discount!</div>
+												</xsl:when>
+												<xsl:otherwise>
 													<xsl:value-of select="concat(format-number(($price + ($price * $vat div 100)) * $disc,'#.##'), price/@currency)"/>
-												<xsl:if test="($price * $vat div 100 * $disc) >= 9.99">
-													<div class="green">Incredible discount!</div>
-												</xsl:if>
+												</xsl:otherwise>
+											</xsl:choose>
 											</xsl:element>
 										</xsl:when>
 										<xsl:otherwise>

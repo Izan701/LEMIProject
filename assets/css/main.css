@@ -3975,6 +3975,29 @@
 
 		}
 
-		div.green {
-			color: green;
+		div.discountGreen {
+			color: white;
+			background-color: yellow;
+			text-align: center;
+			border-radius: 5px;
+
+			background: linear-gradient(-45deg, green, lightgreen, rgb(29, 190, 29));
+			background-size: 1000% 1000%;
+			animation: gradient 5s ease infinite;
+		}
+
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+
+		div.discount {
+			text-align: center;
 		}
