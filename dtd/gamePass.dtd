@@ -8,7 +8,7 @@
 <!ATTLIST price
           currency (Euro | Dollar | Pound) "Euro">
 <!ELEMENT includes (include+)>
-<!ELEMENT include (#PCDATA)>
+<!ELEMENT include (#PCDATA)> 
 <!ELEMENT image (#PCDATA)>
 <!ELEMENT games (game+)>
 <!ELEMENT game (name, image, platforms, price, release, dev, publisher?, review)>
