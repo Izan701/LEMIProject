@@ -39,9 +39,9 @@
     <xs:element name="service">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="name"/>
+                <xs:element name="name" type="xs:string"/>
                 <xs:element name="price" type="rprice"/>
-                <xs:element name="includes"/>
+                <xs:element name="includes" type="xs:string"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -54,8 +54,8 @@
                 <xs:element name="platform"/>
                 <xs:element name="price"/>
                 <xs:element name="release" type="xs:date"/>
-                <xs:element name="dev"/>
-                <xs:element name="publisher"/>
+                <xs:element name="dev" type="xs:string"/>
+                <xs:element name="publisher" type="xs:string"/>
                 <xs:element name="review" type="url"/>
             </xs:sequence>
         </xs:complexType>
@@ -77,4 +77,8 @@
         </xs:complexType>
 
 
+<<<<<<< HEAD
 </xs:schema>
+=======
+</xs:schema>
+>>>>>>> 0d52b7345d8b513c36eb7d00073ea66164d5e4de
