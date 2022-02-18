@@ -1,8 +1,6 @@
 <!ELEMENT gamePass (discount, vat, services, games)>
 <!ELEMENT discount (#PCDATA)>
 <!ELEMENT vat (#PCDATA)>
-<!ATTLIST vat
-          value CDATA #FIXED "21">
 <!ELEMENT services (service+)>
 <!ELEMENT service (name, price, includes, image)>
 <!ELEMENT name (#PCDATA)>
