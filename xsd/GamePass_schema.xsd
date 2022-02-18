@@ -45,8 +45,16 @@
             <xs:sequence>
                 <xs:element name="name" type="xs:string"/>
                 <xs:element name="price"/>
-                <xs:element name="includes" type="xs:string"/>
+                <xs:element name="includes"/>
                 <xs:element name="image"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="includes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="include"  type="xs:string"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -80,12 +88,4 @@
             </xs:simpleContent>
         </xs:complexType>
 
-<<<<<<< HEAD
-
-<<<<<<< HEAD
-=======
->>>>>>> 46177fc9eeec83cfcd25d40b0bb519ac8aeb587a
 </xs:schema>
-=======
-</xs:schema>
->>>>>>> 0d52b7345d8b513c36eb7d00073ea66164d5e4de
