@@ -20,11 +20,11 @@
                 <!-- Header -->
 				<header id="header">
 					<div class="inner">
-						<a href="#" class="logo">Xbox Game Pass</a>
+						<a href="../index.html" class="logo">Xbox Game Pass</a>
 						<nav id="nav">
 							<a href="../index.html">Home page</a>
-							<a href="#">Videogame catalog</a>
-							<a href="services.xml">Service catalog</a>
+							<a href="#">Our catalog</a>
+							<a href="../xml/games.xml">Game catalog</a>
 							<a href="../web/contact.html">Contact</a>								
 						</nav>
 					</div>
@@ -54,7 +54,7 @@
 						
 
 						<xsl:element name="table">
-							<caption>Services</caption>
+							<caption>SERVICES</caption>
 							<thead>
 								<xsl:element name="tr">
 									<xsl:element name="th"></xsl:element>
@@ -99,7 +99,6 @@
 
 
 							<xsl:element name="tr">
-								<th colspan="3"></th>
 								<th>Total services:</th>
 								<xsl:element name="td">
 									<xsl:value-of select="count($gamePassXML/gamePass/services/service)"></xsl:value-of>
@@ -110,7 +109,7 @@
 						</xsl:element>
 
 						<xsl:element name="table">
-							<caption>Videogames</caption>
+							<caption>VIDEOGAMES</caption>
 
 							<thead>
 								<xsl:element name="tr">
@@ -184,7 +183,6 @@
 								</xsl:element>
 							</xsl:for-each>
 							<xsl:element name="tr">
-								<th colspan="4"></th>
 								<th>Total games:</th>
 								<xsl:element name="td">
 									<xsl:value-of select="count($gamePassXML/gamePass/games/game)"></xsl:value-of>
