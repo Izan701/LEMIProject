@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE gamePass SYSTEM "../dtd/gamePass.dtd">
-<gamePass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="../xsd/GamePass_schema.xsd">
-<!-- <gamePass> -->
+<!-- <gamePass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="../xsd/GamePass_schema.xsd"> -->
+<gamePass>
     <discount>0.8</discount>
-    <vat>21</vat>
+    <vat value="21"/>
     <services>
         <service>
             <name>Ultimate</name>
-            <price currency="€">12.99</price>
+            <price currency="Euro">12.99</price>
             <includes>
                 <include>Games</include>
                 <include>EA Play</include>
@@ -19,7 +19,7 @@
 
         <service>
             <name>PC</name>
-            <price currency="€">9.99</price>
+            <price currency="Euro">9.99</price>
             <includes>
                 <include>Games</include>
                 <include>EA Play</include>
@@ -29,7 +29,7 @@
 
         <service>
             <name>Console</name>
-            <price currency="€">9.99</price>
+            <price currency="Euro">9.99</price>
             <includes>
                 <include>Games</include>
             </includes>
@@ -46,7 +46,7 @@
                 <platform>PC</platform>
                 <platform>Mobile</platform>
             </platforms>
-            <price currency="€">39.99</price>
+            <price currency="Euro">39.99</price>
 	        <release>2018-09-28</release>
             <dev>Turn 10 Studios, Playground Games</dev>
             <publisher>Microsoft</publisher>
@@ -60,7 +60,7 @@
                 <platform>PC</platform>
                 <platform>Mobile</platform>
             </platforms>
-            <price currency="€">19.99</price>
+            <price currency="Euro">19.99</price>
             <release>2014-08-29</release>
             <dev>Boneloaf, Coatsink</dev>
             <publisher>Double Fine, Skybound Games, Boneloaf</publisher>
@@ -73,7 +73,7 @@
                 <platform>Console</platform>
                 <platform>PC</platform>
             </platforms>
-            <price currency="€">69.99</price>
+            <price currency="Euro">69.99</price>
 	        <release>2021-12-08</release>
             <dev>343 Industries</dev>
             <publisher>Microsoft</publisher>
@@ -86,7 +86,7 @@
                 <platform>Console</platform>
                 <platform>PC</platform>
             </platforms>
-            <price currency="€">59.99</price>
+            <price currency="Euro">59.99</price>
 	        <release>2022-01-20</release>
             <dev>IO Interactive</dev>
             <publisher>IO Interactive</publisher>
@@ -100,7 +100,7 @@
                 <platform>PC</platform>
                 <platform>Mobile</platform>
             </platforms>
-            <price currency="€">23.95</price>
+            <price currency="Euro">23.95</price>
 	        <release>2011-11-18</release>
             <dev>Mojang, Microsoft</dev>
             <publisher>Microsoft</publisher>
@@ -114,7 +114,7 @@
                 <platform>PC</platform>
                 <platform>Mobile</platform>
             </platforms>
-            <price currency="€">49.99</price>
+            <price currency="Euro">49.99</price>
 	        <release>2019-04-22</release>
             <dev>NetherRealm Studios, QLOC, Shiver Entertainment</dev>
             <publisher>Warner Bros Interactive entertainment</publisher>
@@ -128,7 +128,7 @@
                 <platform>PC</platform>
                 <platform>Mobile</platform>
             </platforms>
-	        <price currency="€">39.99</price>
+	        <price currency="Euro">39.99</price>
 	        <release>2018-03-20</release>
             <dev>Rare</dev>
             <publisher>Xbox Game Studios</publisher>
@@ -141,7 +141,7 @@
                 <platform>Console</platform>
                 <platform>PC</platform>
             </platforms>
-            <price currency="€">44.99</price>
+            <price currency="Euro">44.99</price>
 	        <release>2018-07-13</release>
             <dev>Square Enix, ACQUIRE Corp</dev>
             <publisher>Square Enix</publisher>
@@ -153,7 +153,7 @@
             <platforms>
                 <platform>PC</platform>
             </platforms>
-            <price currency="€">Free</price>
+            <price currency="Euro">Free</price>
 	        <release>2017-08-28</release>
             <dev>Bungie Studios</dev>
             <publisher>Bungie Studios, Activision</publisher>
@@ -166,7 +166,7 @@
                 <platform>Console</platform>
                 <platform>Mobile</platform>
             </platforms>
-            <price currency="€">39.99</price>
+            <price currency="Euro">39.99</price>
 	        <release>2016-10-28</release>
             <dev>Bethesda Game Studios</dev>
             <publisher>Bethesda Softworks</publisher>
@@ -178,7 +178,7 @@
             <platforms>
                 <platform>PC</platform>
             </platforms>
-            <price currency="€">44.99</price>
+            <price currency="Euro">44.99</price>
 	        <release>2020-01-23</release>
             <dev>Asobo Studio</dev>
             <publisher>Focus Home Interactive</publisher>
@@ -190,7 +190,7 @@
             <platforms>
                 <platform>PC</platform>
             </platforms>
-            <price currency="€">19.99</price>
+            <price currency="Euro">19.99</price>
 	        <release>2019-08-19</release>
             <dev>Forgotten Empires</dev>
             <publisher>Xbox Game Studios</publisher>
@@ -202,7 +202,7 @@
             <platforms>
                 <platform>PC</platform>
             </platforms>
-            <price currency="€">15.99</price>
+            <price currency="Euro">15.99</price>
 	        <release>2019-12-05</release>
             <dev>Deadtoast</dev>
             <publisher>Devolver Digital</publisher>
@@ -216,7 +216,7 @@
                 <platform>Console</platform>
                 <platform>PC</platform>
             </platforms>
-            <price currency="€">24.99</price>
+            <price currency="Euro">24.99</price>
 	        <release>2019-05-29</release>
             <dev>Mobius Digital</dev>
             <publisher>Annapurna Interactive</publisher>
