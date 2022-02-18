@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
     
-
-
     <xs:simpleType name="rprice">
         <xs:restriction base="xs:decimal"> 
             <xs:fractionDigits value="2"/> 
@@ -15,13 +13,19 @@
         </xs:restriction>
     </xs:simpleType>
 
-
-
-
+    <xs:simpleType name="pltfrm">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Console"/>
+            <xs:enumeration value="PC"/>
+            <xs:enumeration value="Mobile"/>
+        </xs:restriction>
+    </xs:simpleType>
 
     <xs:element name="gamePass">
         <xs:complexType>
             <xs:sequence>
+                <xs:element name="discount" type="xs:decimal"/>
+                <xs:element name="vat"/>
                 <xs:element name="services"/>
                 <xs:element name="games"/>
             </xs:sequence>
@@ -40,24 +44,24 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="name" type="xs:string"/>
-                <xs:element name="price" type="rprice"/>
+                <xs:element name="price"/>
                 <xs:element name="includes" type="xs:string"/>
+                <xs:element name="image"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
 
-
-        <xs:complexType name="game"> 
-            <xs:sequence>
-                <xs:element name="name" type="xs:string"/>
-                <xs:element name="image" type="url"/>
-                <xs:element name="platform"/>
-                <xs:element name="price"/>
-                <xs:element name="release" type="xs:date"/>
-                <xs:element name="dev" type="xs:string"/>
-                <xs:element name="publisher" type="xs:string"/>
-                <xs:element name="review" type="url"/>
-            </xs:sequence>
+    <xs:complexType name="game"> 
+        <xs:sequence>
+            <xs:element name="name" type="xs:string"/>
+            <xs:element name="image" type="url"/>
+            <xs:element name="platform" type="pltfrm" minOccurs="1" maxOccurs="3"/>
+            <xs:element name="price"/>
+            <xs:element name="release" type="xs:date"/>
+            <xs:element name="dev" type="xs:string"/>
+            <xs:element name="publisher" type="xs:string"/>
+            <xs:element name="review" type="url"/>
+        </xs:sequence>
         </xs:complexType>
 
         <xs:complexType name="price">
@@ -76,8 +80,11 @@
             </xs:simpleContent>
         </xs:complexType>
 
+<<<<<<< HEAD
 
 <<<<<<< HEAD
+=======
+>>>>>>> 46177fc9eeec83cfcd25d40b0bb519ac8aeb587a
 </xs:schema>
 =======
 </xs:schema>

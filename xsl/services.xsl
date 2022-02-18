@@ -111,14 +111,14 @@
 				<footer id="footer">
 					<div class="inner">
 						<div class="copyright">
-							2021-2022 Aritz Velasco, Izan Jabón, Michal Michajlowski
+							© 2022 Aritz Velasco, Izan Jabón, Michal Michajlowski
 							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-								<li><a href="#" class="icon fa-tumblr"><span class="label">Tumblr</span></a></li>
+								<li><a href="https://www.twitter.com" class="icon fa-twitter" target="blank"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com" class="icon fa-facebook"><span class="label" target="blank">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/" class="icon fa-instagram"><span class="label" target="blank">Instagram</span></a></li>
+								<li><a href="https://www.github.com/" class="icon fa-github"><span class="label" target="blank">Github</span></a></li>
+								<li><a href="https://www.dribble.com/" class="icon fa-dribbble"><span class="label" target="blank">Dribbble</span></a></li>
+								<li><a href="https://www.tumblr.com/" class="icon fa-tumblr"><span class="label" target="blank">Tumblr</span></a></li>
 							</ul>
 							Xbox
 						</div>

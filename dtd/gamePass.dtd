@@ -1,19 +1,20 @@
-<!ELEMENT gamePass (services, games)>
+<!ELEMENT gamePass (discount,vat,services, games)>
+<!ELEMENT discount (#PCDATA)>
+<!ELEMENT vat (#PCDATA)>
 <!ELEMENT services (service+)>
 <!ELEMENT service (name, price, includes, image)>
 <!ELEMENT name (#PCDATA)>
 <!ELEMENT price (#PCDATA)>
-<!ATTLIST price
-          currency CDATA #REQUIRED>
 <!ELEMENT includes (#PCDATA)>
 <!ELEMENT image (#PCDATA)>
 <!ELEMENT games (discount, game+)>
 <!ELEMENT discount (#PCDATA)>
-<!ELEMENT game (name, image, platform, price, release, dev, publisher, review)>
-<!ATTLIST game
-          id CDATA #REQUIRED>
+<!ELEMENT game (name, image, platform+, price, release, dev, publisher, review)>
 <!ELEMENT platform (#PCDATA)>
 <!ELEMENT release (#PCDATA)>
 <!ELEMENT dev (#PCDATA)>
 <!ELEMENT publisher (#PCDATA)>
 <!ELEMENT review (#PCDATA)>
+
+<!ATTLIST price currency (€|$|¥)#REQUIRED>      <!--Error raro?-->
+<!ATTLIST game id CDATA #REQUIRED>
